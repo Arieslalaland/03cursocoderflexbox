@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Lobster&family=Roboto+Mono:wght@200;600&family=Turret+Road&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family:'Lobster';
+    font-size: 8mm;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width:  90%;
+    margin: auto;
+    align-items: center;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* HEADER */
+.medida-logo{
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    padding: 10px;
+    background: #FEB420;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    background: #FEB420;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    margin-left: 15px;
+    background: #FEB420 ;
+}
+
+
+header ul li a {
+    color:#C5A3D8;
+    font-size: 8mm;
+    font-family: 'Lobster';
+}
+
+header ul li:hover{
+    background-color: #000000;
+}
+
+/* GALERIA */
+.galeria ul  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+/* PRODCUTOS */
+.productos .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos h2 {
+    width: 100%;
+    order: -2;
+}
+
+.productos h3 {
+        font-family:'Lobster';
+        color: #5226EF;
+}
+
+.productos article {
+    width: 20%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    flex: 1;
+}
+
+.productos article p {
+    text-align: center;
+    width:  90%;
+    margin: auto;
+}
